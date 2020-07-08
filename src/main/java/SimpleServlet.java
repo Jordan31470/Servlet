@@ -9,6 +9,7 @@ import java.io.PrintWriter;
 public class SimpleServlet extends HttpServlet {
 
     private static final String TEST_MESSAGE = "SIMPLE SERVLET OK" ;
+    
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
